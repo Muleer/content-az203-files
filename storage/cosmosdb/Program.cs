@@ -15,12 +15,12 @@ namespace linuxacademy.az203.storage.cosmosdb
     class Program
     {
         private static DocumentClient _client;
-        private const string _databaseId = "myDatabase";
+        private const string _databaseId = "myDatabaseiop";
         private const string _collectionId = "Families";
         private const string _endpoint = 
-            "";
+            "https://laaz203cosmosdbiop.documents.azure.com:443/";
         private const string _key = 
-            "";
+            "jHwIjbBHGerUyCpvyPBNAkLCww3Cr3PTITaMs9bwQeETO3FRlWWoGYm1Q6gQeGFdfiveeU1tJqQNs0NAoteFaQ==";
 
         static void Main(string[] args)
         {

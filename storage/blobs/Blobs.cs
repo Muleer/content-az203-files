@@ -9,7 +9,7 @@ namespace linuxacademy.az203.storage.blobs
     public class Blobs
     {
         public static string _connectionString = 
-            "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=laaz203blobs;AccountKey=3A1YdQ11kVDHJZy+V6lEw4ejKmPxLyUbKf86DCpffYV+/Ctt/vdLhG4/bKvs8vmgbJZHk4PORqB48H55BQpNlw==";
+            "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=laaz203blobsiopiop;AccountKey=lNnDFbbroiZ1qLlGbbmtmc0pzcTkXk5IEif0QcygZt3S3zwDei+6Cq11GKbeOsbfxgNXKN5rm+8rdWrpi74CyQ==";
         public static async Task RunAsync()
         {
             var storageAccount = CloudStorageAccount

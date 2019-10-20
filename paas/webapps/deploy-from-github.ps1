@@ -1,6 +1,6 @@
 $rg = "webapps"
-$planname = "githubdeployasp"
-$appname = "laaz203githubdeploy"
+$planname = "githubdeployaspIOP"
+$appname = "laaz203githubdeployIOP"
 $repourl = "https://github.com/Azure-Samples/php-docs-hello-world"
 
 az group create `

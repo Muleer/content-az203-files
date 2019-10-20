@@ -30,7 +30,7 @@ namespace storage
                 var cloudStorageAccount = new CloudStorageAccount(
                     storageCredentials, 
                     useHttps: true, 
-                    accountName: "laaz203rbacmsistg", 
+                    accountName: "laaz203rbacmsistgiop", 
                     endpointSuffix: "core.windows.net");
                 var cloudBlobClient = 
                     cloudStorageAccount.CreateCloudBlobClient();

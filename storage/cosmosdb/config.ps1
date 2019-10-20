@@ -1,7 +1,7 @@
 $resourceGroupName = "cosmosdb"
 $location = "westus"
-$accountName= "laaz203cosmosdb"
-$databaseName = "myDatabase"
+$accountName= "laaz203cosmosdbiop"
+$databaseName = "myDatabaseiop"
 
 az group create `
  -n $resourceGroupName `
@@ -12,9 +12,10 @@ az cosmosdb create `
  -g $resourceGroupName `
  --name $accountName `
  --kind GlobalDocumentDB `
- --locations "West US=0" "North Central US=1" `
- --default-consistency-level Strong `
- --enable-multiple-write-locations true `
+ --locations regionName=EastUS failoverPriority=0 isZoneRedundant=True `
+ --locations regionName=WestUS2 failoverPriority=1 isZoneRedundant=True `
+ --enable-multiple-write-locations `
+ --default-consistency-level Session `
  --enable-automatic-failover true
 
 # Create a database

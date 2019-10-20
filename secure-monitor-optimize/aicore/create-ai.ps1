@@ -1,5 +1,5 @@
-$resourceGroup = "appinsights"
-$appInsightsName = "laaz203aisample"
+$resourceGroup = "appinsightsiop"
+$appInsightsName = "laaz203aisampleiop"
 az group create -n $resourceGroup -l eastus
 
 $propsFile = "props.json"

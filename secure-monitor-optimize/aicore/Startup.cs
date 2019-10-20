@@ -29,7 +29,7 @@ namespace web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddApplicationInsightsTelemetry("3b27a78a-f2a3-4567-b66b-d0db3dabcaa1");
+            services.AddApplicationInsightsTelemetry("306d21a1-4058-4183-ac73-5c9c39229f84");
             Trace.Listeners.Add(new ApplicationInsightsTraceListener());
         }
 

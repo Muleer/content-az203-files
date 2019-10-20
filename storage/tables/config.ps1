@@ -1,6 +1,6 @@
 $rg = "tables"
 $location = "westus"
-$acct = "laaz203tables"
+$acct = "laaz203tablesiop"
 
 az group create -n $rg -l $location
 

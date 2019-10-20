@@ -20,7 +20,7 @@ namespace secrets
                 new KeyVaultClient.AuthenticationCallback(
                     azureServiceTokenProvider1.KeyVaultTokenCallback));
 
-            var kvBaseUrl = "https://laaz203kvsecrets.vault.azure.net/";
+            var kvBaseUrl = "https://laaz203kvsecretsiop.vault.azure.net/";
             var secret = await kvc.GetSecretAsync(
                 kvBaseUrl, "connectionString");
             System.Console.WriteLine(secret.Value);
